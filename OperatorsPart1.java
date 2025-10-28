@@ -26,7 +26,7 @@ public class OperatorsPart1{
 		System.out.printf("Product is %d%n",product);
 		System.out.printf("Difference between num1 and num2 is %d%n",minus);
 		System.out.println(name + sum);
-		System.out.printf("Result is %d",divide);
+		System.out.printf("Result is %.2f%n", divide);
 		System.out.printf("Modulos is %d%n",modulos);
 		
 		//Relational Operators 
@@ -37,7 +37,7 @@ public class OperatorsPart1{
 		boolean isGreaterThanOrEqualTo = firstNum >= secondNum;
 		boolean isLessThanOrEqualTo = firstNum <= secondNum;
 		boolean isNotEqualTo = firstNum != secondNum;
-		boolean isEqualTo = firstNum==secondNum;
+		boolean isEqualTo = firstNum == secondNum;
 		
 		System.out.printf("Is firstNum > secondNum? %b%n",isGreater);
 		System.out.printf("Is firstNum < secondNum? %b%n",isLesser);
