@@ -19,7 +19,7 @@ public class Encrypt {
         d3 = (d3 + 7) % 10;
         d4 = (d4 + 7) % 10;
 
-        // Swap first ↔ third, second ↔ fourth
+        // Swap first to third, second to fourth
         int temp = d1; d1 = d3; d3 = temp;
         temp = d2; d2 = d4; d4 = temp;
 
